@@ -1,4 +1,4 @@
-import NavBar from '@/components/Navbar';
+import NavBar from '../components/NavBar';
 import './globals.css';
 import { exo2, orbitron } from '@/app/fonts';
 
