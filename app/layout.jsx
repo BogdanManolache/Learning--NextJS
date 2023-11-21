@@ -26,7 +26,7 @@ function RootLayout({ children }) {
             className="text-orange-800 duration-300 hover:underline"
           >
             RAWG
-          </a>
+          </a> | Deployed on Vercel.
         </footer>
       </body>
     </html>
