@@ -7,8 +7,6 @@ import { LinkIcon } from '@heroicons/react/20/solid';
 export default function ShareLinkButton() {
   const [clicked, setClicked] = useState(false);
 
-  console.log('[Share link button] rendered');
-
   const handleClick = () => {
     navigator.clipboard.writeText(window.location.href);
     setClicked(true);
